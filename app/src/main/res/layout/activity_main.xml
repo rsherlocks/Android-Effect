@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/buttontoast"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/reple"
+        android:text="Hello World!"
+        android:textColor="@color/colorAccent"
+        />
+
+    <ToggleButton
+        android:id="@+id/tooglebutton"
+        android:textOn="Wifi On"
+        android:textOff="Wifi Of"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttontoast"
+        android:layout_marginTop="26dp" />
+
+    <Switch
+        android:id="@+id/buttonswitch"
+        android:background="#ffff"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/tooglebutton"
+        android:layout_marginTop="26dp" />
+
+</RelativeLayout>
